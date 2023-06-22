@@ -11,6 +11,7 @@ def celsius_to_fahrenheit(celsius):
         return None
     return celsius/5*9 + 32
 
+
 def celsius_to_kelvin(celsius):
     """Celsius to Kelvin conversion
 
@@ -22,6 +23,7 @@ def celsius_to_kelvin(celsius):
     """
     return celsius + 273.15
 
+
 def kelvin_to_fahrenheit(kelvin):
     """Kelvin to Fahrenheit conversion
 
@@ -30,8 +32,6 @@ def kelvin_to_fahrenheit(kelvin):
 
     Returns:
         float: temperature in degrees Fahrenheit
-    """    
+    """
     celsius = kelvin - 273.15
-    return  celsius_to_fahrenheit(celsius)
-
-    
+    return celsius_to_fahrenheit(celsius)
