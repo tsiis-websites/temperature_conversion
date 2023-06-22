@@ -10,7 +10,7 @@ def test_celsius_to_fahrenheit_invalid():
     # in this case we test for a TypeError, should fail on a number
     with pytest.raises(TypeError):
         celsius_to_fahrenheit("InvalidValue")
-        #celsius_to_fahrenheit(10)
+        # celsius_to_fahrenheit(10)
 
 def test_celsius_to_fahrenheit_none():
     assert celsius_to_fahrenheit(None) is None

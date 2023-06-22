@@ -7,7 +7,7 @@ def celsius_to_fahrenheit(celsius):
     Returns:
         float: temperature in degrees fahrenheit
     """
-    if celsius == None:
+    if celsius is None:
         return None
     return celsius/5*9 + 32
 
